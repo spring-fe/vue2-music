@@ -1,6 +1,6 @@
 # music
 
-访问地址 https://spring-fe.github.io/vue2-music/src/index.html
+访问地址 https://spring-fe.github.io/vue2-music/dist/index.html
 
 npm install
 
