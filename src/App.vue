@@ -115,7 +115,7 @@
     margin-top: 62px;
     padding-bottom: 40px;
     overflow: scroll;
-    background: #dcd9de;
+    background: white;
   }
   footer{
     position: fixed;
