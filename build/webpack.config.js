@@ -51,7 +51,12 @@ module.exports = {
     new HtmlWebpackPlugin({
         filename: 'src/index.html',
         template: path.resolve(__dirname, './src/index.html')
-      })
+    }),
+    new ExtractTextPlugin({                                   // css抽离插件,单独放到一个style文件当中.
+      filename: `css/style.css`,
+      allChunks: true,
+      disable: false
+    }),
   ]
   
 }
