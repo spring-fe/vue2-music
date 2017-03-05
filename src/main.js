@@ -1,9 +1,13 @@
 import Vue from 'vue'
+import VueRouter from 'vue-router'
+import routes from './router/router'
+
+Vue.use(VueRouter)
+const router = new VueRouter({
+	routes
+})
 
 new Vue({
-  el: '#app',
-  data:{
-    message: 'hello world'
-  }
-})
+  router
+}).$mount('#app')
 
