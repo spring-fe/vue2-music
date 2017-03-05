@@ -70,11 +70,6 @@
 <style lang="sass">
   
   @import './style/common';
-
-  html,body{
-    height: 100%;
-    width: 100%;
-  }
   body{
     background: #bbbfb9;
   }
@@ -118,6 +113,7 @@
   }
   #main{
     margin-top: 62px;
+    padding-bottom: 40px;
     overflow: scroll;
     background: #dcd9de;
   }
