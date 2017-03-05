@@ -10,7 +10,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, '../music'),
     publicPath: '/',
-    filename: 'build.js'
+    filename: '../build.js'
   },
   module: {
     rules: [
