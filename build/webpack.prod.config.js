@@ -11,7 +11,7 @@ const PATHS = {
 module.exports = merge(require('./webpack.config'), {
   output: {
     path: PATHS.dist,
-    publicPath: '/',
+    publicPath: './',
     filename: `js/[name].[chunkhash:8].js`, // hash输出8位
     chunkFilename: `js/[name].[chunkhash:8].js`,
   },
