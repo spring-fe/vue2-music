@@ -38,6 +38,17 @@ module.exports = {
         }
       },
       {
+      test: /\.sass/,
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: [
+            'css-loader',
+            'scss-loader',
+            'sass-loader'
+          ]
+        })
+      },
+      {
         test: /\.css/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
