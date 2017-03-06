@@ -127,7 +127,7 @@
 		
 		<br><br>
 		<router-link to="/detail" class="guess_city">
-        	<span>to detail</span>
+        	<span>go</span>
     	</router-link> 
 	</div>
 

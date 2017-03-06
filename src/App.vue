@@ -63,12 +63,12 @@
       width: 100%;
       font-size: 12px;
       background: #0bc175;
-      padding: 4px 0;
+      padding: 6px 0;
       text-align: center;
       input{
         background: #beecbd;
         width: 90%;
-        height: 27px;
+        height: 25px;
         opacity: 0.5;
         border-radius: 4px;
         -webkit-border-raadius: 4px;
@@ -78,7 +78,7 @@
     background: #0bc175;
   }
   #main{
-    margin-top: 62px;
+    margin-top: 61px;
     padding-bottom: 40px;
     overflow: scroll;
     background: white;
