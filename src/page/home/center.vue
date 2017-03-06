@@ -205,7 +205,7 @@
 
 #center{
 	#push{
-		height: 94px;
+		height: 130px;
 		background: #f0d096;
 		overflow: hidden;
 		ul{
@@ -223,28 +223,18 @@
 				}
 				&.item1{
 					background: yellow;
-					-webkit-animation: img1 20s linear infinite;
-					animation: img1 20s linear infinite;
 				}
 				&.item2{
 				background: red;
-					-webkit-animation: img2 20s linear infinite;
-					animation: img2 20s linear infinite;
 				}
 				&.item3{
 				background: blue;
-					-webkit-animation: img3 20s linear infinite;
-					animation: img3 20s linear infinite;
 				}
 				&.item4{
 				background: black;
-					-webkit-animation: img4 20s linear infinite;
-					animation: img4 20s linear infinite;
 				}
 				&.item5{
 				background: #fff;
-					-webkit-animation: img5 20s linear infinite;
-					animation: img5 20s linear infinite;
 				}
 
 			}
