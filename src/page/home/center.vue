@@ -25,6 +25,8 @@
 			</ul>
 		</div>
 		<div id="hot-push">
+		<div>热门推荐</div>
+		<span id='tohot'> > </span>
 		<a>
 			<figure>
 				<img src="../../images/hot1.jpeg">
@@ -102,6 +104,29 @@
 	#hot-push{
 		display: flex;
 		flex-flow: row wrap;
+		position: relative;
+		#tohot{
+			position: absolute;
+			top: 16px;
+			right: 10px;
+			font-size: 12px;
+			display: block;
+			width: 16px;
+			height: 16px;
+			line-height: 16px;
+			border-radius: 50%;
+			border: 1px solid grey;
+			text-align: center;
+
+		}
+		div{
+			width: 100%;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			font-size: 14px;
+			margin-top: 8px;
+		}
 		a{
 			width: 33%;
 			display: flex;
