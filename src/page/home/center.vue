@@ -142,11 +142,6 @@
 				</ul>
 			</section>
 		</div>
-		
-		<br><br>
-		<router-link to="/detail" class="guess_city">
-        	<span>go</span>
-    	</router-link> 
 	</div>
 
 </template>
