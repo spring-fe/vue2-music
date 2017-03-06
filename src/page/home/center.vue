@@ -326,7 +326,7 @@
 			display: flex;
 			justify-content: center;
 			figure{
-				margin-top: 3px;
+				margin: 3px 0;
 				width: 100%;
 				img{
 					width: 100%;
