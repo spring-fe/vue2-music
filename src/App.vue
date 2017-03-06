@@ -13,40 +13,6 @@
     </header>
     <section id="main">
       <router-view></router-view>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
-      111<br>
       <footer id="footer">
 
       </footer>
