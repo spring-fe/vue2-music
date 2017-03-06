@@ -37,7 +37,7 @@
   
   @import './style/common';
   body{
-    background: #bbbfb9;
+    background: #fff;
   }
 
   header{
