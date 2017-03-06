@@ -1,6 +1,24 @@
 <template>
 	<div id="center">
 		<div id="push">
+			<ul>
+				<li class="item1">
+					<img src="../../images/push1.jpeg">
+				</li>
+				<li class="item2">
+					<img src="../../images/push2.jpeg">
+				</li>
+				<li class="item3">
+					<img src="../../images/push3.jpeg">
+				</li>
+				<li class="item4">
+					<img src="../../images/push4.jpeg">
+				</li>
+				<li class="item5">
+					<img src="../../images/push5.jpeg">
+				</li>
+			</ul>
+
 		</div>
 		<div id="types">
 			<ul>
@@ -137,11 +155,100 @@
 </script>
 
 <style lang="sass">
+@-webkit-keyframes img1  {
+    0% { left:0px; }
+	18% { left:0px;z-index:0; }
+	20% { left:760px;-index:0;}
+	21% { left:-760px; z-index:-1;}
+	96% { left:-760px; z-index:0;}
+	98% { left:-760px; }
+	100% { left:0px; }
+	}
+   
+  @-webkit-keyframes img2 {
+    0% { left:-760px;}
+	18% { left:-760px; z-index:0; }
+	20% { left:0px;z-index:0; }
+	38% { left:0px;z-index:0;}
+	40% { left:760px; z-index:0;}
+	41% { left:-760px;z-index:-1; }
+	100% { left:0px;z-index:0;}
+	}
+	
+  @-webkit-keyframes img3  {
+    0% { left:-760px; opacity:0; z-index:0 }
+	38% { left:-760px; opacity:0; z-index:0}
+	40% { left:0px; opacity:1; z-index:0;}
+	58% { left:0px; opacity:1; }
+	60% { left:760px; opacity:0; z-index:0;}
+	61% { left:-760px; opacity:0; z-index:-1; }
+	100% { left:0px; opacity:0; }
+	}
+	
+  @-webkit-keyframes img4  {
+    0% { left:-760px; opacity:0; z-index:0}
+	58% {  left:-760px; opacity:0; z-index:0;}
+	60% { left:0px; opacity:1; z-index:0}
+	78% {  left:0px; opacity:1; z-index:0;}
+	80% { left:760px; opacity:0; z-index:0;}
+	81% { left:-760px; opacity:0; z-index:-1; }
+	100% {  left:-760px; opacity:0; }
+	}
+	
+  @-webkit-keyframes img5  {
+    0% { left:-760px; }
+	78% { left:-760px; opacity:0; z-index:0; }
+	80% { left:0px; opacity:1; z-index:0}
+	98% { left:0; opacity:1; z-index:0;}
+	100% { left:760px; opacity:0; }
+	}
 
 #center{
 	#push{
 		height: 94px;
 		background: #f0d096;
+		overflow: hidden;
+		ul{
+			position: relative;
+			height: 100%;
+			background: url(../../images/pushbg.jpeg) no-repeat 100% 100%;
+			li{
+				position: absolute;
+				left: 0px;
+				height: 100%;
+				width: 100%;
+				img{
+					width: 100%;
+					height: 100%;
+				}
+				&.item1{
+					background: yellow;
+					-webkit-animation: img1 20s linear infinite;
+					animation: img1 20s linear infinite;
+				}
+				&.item2{
+				background: red;
+					-webkit-animation: img2 20s linear infinite;
+					animation: img2 20s linear infinite;
+				}
+				&.item3{
+				background: blue;
+					-webkit-animation: img3 20s linear infinite;
+					animation: img3 20s linear infinite;
+				}
+				&.item4{
+				background: black;
+					-webkit-animation: img4 20s linear infinite;
+					animation: img4 20s linear infinite;
+				}
+				&.item5{
+				background: #fff;
+					-webkit-animation: img5 20s linear infinite;
+					animation: img5 20s linear infinite;
+				}
+
+			}
+		}
 	}
 	#go{
 			position: absolute;
