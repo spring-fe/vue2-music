@@ -38,7 +38,7 @@
 				<img v-if="index==3" src="../../images/hot4.jpeg">
 				<img v-if="index==4" src="../../images/hot5.jpeg">
 				<img v-if="index==5" src="../../images/hot6.jpeg">
-				<figcaption>《敢》为人先</figcaption>
+				<figcaption>{{item.name}}</figcaption>
 			</figure>
 		</a>
 		</div>
