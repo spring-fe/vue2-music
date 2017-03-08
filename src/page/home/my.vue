@@ -1,11 +1,29 @@
 <template>
 	<div id = 'my'>
 		<img src="../../images/avatar.jpeg"><br>
-		果果
+		{{username}}
 	</div>
 </template>
 
 <script>
+
+import {mapState, mapMutations} from 'vuex'
+
+export default {
+	data(){
+		return {
+			username:''
+		}
+	},
+	mounted(){
+		this.username = this.$store.state.username;
+	},
+	computed: {
+       
+    }
+	
+}
+
 </script>
 
 <style lang = 'sass'>

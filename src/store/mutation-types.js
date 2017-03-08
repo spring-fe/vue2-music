@@ -1,0 +1,1 @@
+export const RECORD_USER = 'RECORD_USER'
